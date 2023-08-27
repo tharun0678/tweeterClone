@@ -1,0 +1,70 @@
+###
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+   "username": "Tharun",
+  "password": "tharun",
+  "name": "Tharun Kumar",
+  "gender": "male"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+   "username":"JoeBiden",
+  "password":"biden@123"
+
+}
+
+###
+GET http://localhost:3001/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+###
+GET http://localhost:3001/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+
+###
+GET http://localhost:3001/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+
+###
+
+GET http://localhost:3000/tweets/8/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+
+###
+
+GET http://localhost:3000/tweets/8/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+###
+
+GET http://localhost:3001/tweets/2/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+###
+
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+###
+
+POST http://localhost:3000/user/tweets/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
+{
+    "tweet": "Enjoy the day"
+}
+
+###
+DELETE http://localhost:3000/tweets/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
+
