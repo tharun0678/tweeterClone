@@ -20,16 +20,16 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3001/user/tweets/feed/
+GET http://localhost:3000/user/tweets/feed/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
 
 ###
-GET http://localhost:3001/user/following/
+GET http://localhost:3000/user/following/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
 
 
 ###
-GET http://localhost:3001/user/followers/
+GET http://localhost:3000/user/followers/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
 
 
@@ -46,7 +46,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhd
 
 ###
 
-GET http://localhost:3001/tweets/2/replies/
+GET http://localhost:3000/tweets/7/replies/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY5MzA5Mjc5OX0.tlTponBQYL6ujI9v74tc_m4zO2OCKAa6-RKIhvlfJZc
 
 ###
